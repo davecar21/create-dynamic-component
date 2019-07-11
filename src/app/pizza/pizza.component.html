@@ -1,0 +1,8 @@
+<div class="toppings" *ngFor="let topping of toppings; let i = index">
+	<p (click)="edit(topping.id)">
+		pizza works!
+	</p>
+	<span class="edit" (click)="edit(topping.id)">EDIT: {{topping.id}}</span>
+  <span class="remove" (click)="remove(topping.id)">REMOVE [X]</span>
+  <p>{{topping | json}}</p>
+</div>

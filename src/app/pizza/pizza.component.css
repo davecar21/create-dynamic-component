@@ -1,0 +1,18 @@
+span{
+  margin: 1px 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.toppings{
+  margin-bottom: 20px;
+  border-bottom: 1px solid green;
+}
+
+.edit{
+  border: 1px blue solid;
+}
+
+.remove{
+  border: 1px red solid;
+}
